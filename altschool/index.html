@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en" class="main-style">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AltSchool Sign Up</title>
+    <nav class="nav-bar">
+        <li><a href='/'>Home</a></li>
+    </nav>
+    <link href="./styles/styles.css" rel="stylesheet" />
+</head>
+
+<body>
+    <h2>Application Form</h2>
+    <h3 id="color-h">Fill in your details</h3>
+
+    <form >
+
+        <p>
+            <label for="first" class="my-first">First Name</label>
+            <input type="text" placeholder="Enter your first name"  required/> 
+        
+            <label for="last">Last Name</label>
+            <input type="text" placeholder="Enter your last name"  required/> 
+        </p>
+
+        <p>
+
+            <label for="gender">Gender</label>
+            <select name="gender" required>
+            <option value="select">Select gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            </select>
+    
+            <label for="date">Date of Birth</label>
+            <input type="date"  required/>
+        </p>
+
+        <p>
+
+            <label for="email">Email Address</label>
+            <input type="email" placeholder="Enter email address" /> 
+    
+            <label for="education" class="my-first">Education Level</label>
+            <select name="education">
+            <option value="select">Select level of education</option>
+            <option value="bsc">B.Sc</option>
+            <option value="msc">M.Sc</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="country">Country</label>
+            <select name="country" required>
+            <option value="select">Select your country</option>
+            <option value="nigeria">Nigeria</option>
+            <option value="kenya">Kenya</option>
+            </select>
+
+            <label for="state">State/City of Residence</label>
+            <input type="text" placeholder="Enter your state of residence"  required/> 
+        </p>
+
+        <p>
+            <label for="employment">Employment Status</label>
+            <select name="employment" required>
+            <option value="select">Select employment status</option>
+            <option value="employed">Employed</option>
+            <option value="unemployed">Un-employed</option>
+            </select>
+
+            <label for="phone">Phone Number</label>
+            <input type="number" placeholder="08123457654"  required/> 
+        </p>
+
+        <p>
+            <label for="school">Choose School</label>
+            <select name="school" required>
+            <option value="select">Select school</option>
+            <option value="oau">OAU</option>
+            <option value="unilag">Unilag</option>
+            </select>
+
+            <label for="course">Choose Course of Study</label>
+            <select name="course" required>
+            <option value="select">Select course</option>
+            <option value="computer">Computer Science</option>
+            <option value="medicine">Medicine</option>
+            </select>
+
+        </p>
+
+        <p>
+            <label for="how">How did you hear about us?</label>
+            <select name="how" required>
+            <option value="select">Select channel</option>
+            <option value="twitter">Twitter</option>
+            <option value="instagram">Instagram</option>
+            </select>
+
+            <label for="scholarship">Scholarship/Discount Code (optional)</label>
+            <input type="text" placeholder="Scholarship or student l..."  required/> 
+        </p>
+        
+        <p>By clicking continue, I agree to  Terms of Use and acknowledge that I
+            have read the  Privacy Policy.</p>
+
+        <button type="submit">Proceed</button>
+
+
+    </form>
+</body>
+</html>
